@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "KRAUSS Training",
+    siteUrl: "http://localhost:8000",
   },
   plugins: [
     "gatsby-plugin-emotion",
@@ -12,24 +13,17 @@ module.exports = {
       },
     },
     "gatsby-plugin-sharp",
-    `gatsby-plugin-advanced-sitemap`,
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-offline",
     "gatsby-plugin-mdx",
+    `gatsby-plugin-preact`,
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: 'gatsby-plugin-web-font-loader',
       options: {
-        fonts: [
-          {
-            family: `Oswald`,
-            subsets: [`latin`],
-          },
-          {
-            family: `Open Sans`,
-            variants: [`400`, `700`]
-          },
-        ],
-      },
+        google: {
+          families: ['Droid Sans', 'Droid Serif']
+        }
+      }
     },
     {
       resolve: `gatsby-plugin-manifest`,
