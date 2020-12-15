@@ -5,13 +5,6 @@ module.exports = {
   plugins: [
     "gatsby-plugin-emotion",
     'gatsby-plugin-robots-txt',
-    {
-      resolve: "gatsby-plugin-google-analytics",
-      options: {
-        trackingId: "asd",
-        anonymize: true,
-      },
-    },
     'gatsby-plugin-netlify-cache',
     "gatsby-plugin-sharp",
     "gatsby-plugin-offline",
