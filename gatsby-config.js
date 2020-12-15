@@ -4,6 +4,7 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-emotion",
+    'gatsby-plugin-robots-txt',
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
@@ -11,10 +12,12 @@ module.exports = {
         anonymize: true,
       },
     },
+    'gatsby-plugin-netlify-cache',
     "gatsby-plugin-sharp",
     "gatsby-plugin-offline",
     "gatsby-plugin-mdx",
-    `gatsby-plugin-preact`, 
+    `gatsby-plugin-preact`,
+    `gatsby-plugin-advanced-sitemap`,
     {
       resolve: 'gatsby-plugin-next-seo',
       options: {
@@ -26,7 +29,7 @@ module.exports = {
           locale: 'de',
           url: 'https://krauss-training.netlify.app',
           site_name: 'KraussTraining',
-        },
+        }, 
       },
     },
     {
