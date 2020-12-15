@@ -4,7 +4,6 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-emotion",
-    'gatsby-plugin-google-analytics',
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
@@ -15,8 +14,7 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-plugin-offline",
     "gatsby-plugin-mdx",
-    `gatsby-plugin-preact`,
-    'gatsby-plugin-next-seo',
+    `gatsby-plugin-preact`, 
     {
       resolve: 'gatsby-plugin-next-seo',
       options: {
@@ -31,7 +29,6 @@ module.exports = {
         },
       },
     },
-    'gatsby-plugin-web-font-loader',
     {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
@@ -40,7 +37,6 @@ module.exports = {
         }
       }
     },
-    'gatsby-plugin-manifest',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
