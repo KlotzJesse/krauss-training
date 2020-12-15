@@ -16,10 +16,12 @@
   },
   "license": "0BSD",
   "dependencies": {
+    "@emotion/core": "^11.0.0",
     "@emotion/react": "^11.1.2",
     "@emotion/styled": "^11.0.0",
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
+    "autoprefixer": "^10.1.0",
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.8.0",
     "gatsby-plugin-advanced-sitemap": "^1.5.6",
@@ -30,16 +32,23 @@
     "gatsby-plugin-netlify-cache": "^1.2.0",
     "gatsby-plugin-next-seo": "^1.6.1",
     "gatsby-plugin-offline": "^3.7.0",
+    "gatsby-plugin-postcss": "^3.4.0",
     "gatsby-plugin-preact": "^4.4.0",
     "gatsby-plugin-robots-txt": "^1.5.3",
     "gatsby-plugin-sharp": "^2.11.0",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-source-filesystem": "^2.8.0",
     "gatsby-transformer-sharp": "^2.9.0",
+    "postcss": "^8.2.1",
+    "postcss-import": "^14.0.0",
+    "postcss-preset-env": "^6.7.0",
     "preact": "^10.5.7",
     "preact-render-to-string": "^5.1.12",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-helmet-async": "^1.0.7"
+    "react-helmet-async": "^1.0.7",
+    "stylelint": "^13.8.0",
+    "tailwindcss": "^2.0.2",
+    "twin.macro": "^2.0.7"
   }
 }
