@@ -3,11 +3,11 @@ module.exports = {
     siteUrl: "https://krauss-training.netlify.app",
   },
   plugins: [
-    "gatsby-plugin-emotion",
+    `gatsby-plugin-emotion`,
+    `gatsby-plugin-postcss`,
     'gatsby-plugin-robots-txt',
     'gatsby-plugin-netlify-cache',
     "gatsby-plugin-sharp",
-    "gatsby-plugin-offline",
     "gatsby-plugin-mdx",
     `gatsby-plugin-preact`,
     `gatsby-plugin-advanced-sitemap`,
@@ -62,17 +62,6 @@ module.exports = {
       },
       __key: "pages",
     },
-    {
-      resolve: `gatsby-plugin-emotion`,
-      options: {
-        // Accepts all options defined by `babel-plugin-emotion` plugin.
-      },
-    },
-    {
-      resolve: `gatsby-plugin-postcss`,
-      options: {
-        // Accepts all options defined by `gatsby-plugin-postcss` plugin.
-      },
-    },
-  ],
+    "gatsby-plugin-offline",
+  ], 
 };
