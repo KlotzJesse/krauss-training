@@ -8,7 +8,7 @@ const IndexPage = () => {
       <h1>
         Hello World
       </h1>
-      <p style={paragraphStyles}>
+      <p> 
         Edit <code>src/pages/index.js</code> to see this page
         update in real-time.{" "}
       </p>
