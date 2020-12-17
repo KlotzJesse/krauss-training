@@ -2,9 +2,9 @@ module.exports = {
   siteMetadata: {
     siteUrl: "https://krauss-training.netlify.app",
   },
-  plugins: [
-    `gatsby-plugin-emotion`,
+  plugins: [ 
     `gatsby-plugin-postcss`,
+    `gatsby-plugin-emotion`,
     'gatsby-plugin-robots-txt',
     'gatsby-plugin-netlify-cache',
     "gatsby-plugin-sharp",
@@ -24,14 +24,6 @@ module.exports = {
           site_name: 'KraussTraining',
         }, 
       },
-    },
-    {
-      resolve: 'gatsby-plugin-web-font-loader',
-      options: {
-        google: {
-          families: ['Droid Sans', 'Droid Serif']
-        }
-      }
     },
     {
       resolve: `gatsby-plugin-manifest`,

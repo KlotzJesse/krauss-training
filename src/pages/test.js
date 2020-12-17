@@ -2,14 +2,14 @@ import * as React from "react"
 import Layout from "../components/layout"
 
 // markup
-const IndexPage = () => {
+const TestPage = () => {
   return (
     <Layout>
-      <main>
-        <p>Index Page</p>
-      </main>
+        <main>
+            <p>Hello World. Thats my test page</p>
+        </main>
     </Layout>
   )
 }  
 
-export default IndexPage
+export default TestPage
