@@ -67,48 +67,10 @@
 
   import tw from "twin.macro"
 
-  const Nav = tw.nav`flex flex-col flex-grow pb-4 md:pb-0 md:flex md:justify-end md:flex-row`
-  const NavLink = tw.a`px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark:bg-transparent dark:hover:bg-gray-600 dark:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:ring`
-  const NavDropdown = tw.button`flex flex-row text-gray-900 bg-gray-200 items-center w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg dark:bg-transparent dark:focus:text-white dark:hover:text-white dark:focus:bg-gray-600 dark:hover:bg-gray-600 md:w-auto md:inline md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:ring`
-  
-  const OuterDiv = tw.div`antialiased bg-gray-100 dark:bg-gray-900`
-  const OutDiv = tw.div`w-full text-gray-700 bg-gray-100 dark:text-gray-200 dark:bg-gray-800`
-  const InnerDiv = tw.div`flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8`
-  
-  const LogoContainer = tw.div`flex flex-row items-center justify-between p-4`
-  const Logo = tw.a`text-lg font-semibold tracking-widest text-gray-900 uppercase rounded-lg dark:text-white focus:outline-none focus:ring`
-  
-  const MoreIcon = tw.svg`inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1 rotate-0`
-  
-  const OpenButton = tw.button`rounded-lg md:hidden focus:outline-none focus:ring`
-
 export default function Navigation({ children }) {
   return (
-      <OuterDiv>
-        <OutDiv>
-          <InnerDiv>
-            <LogoContainer>
-              <Logo>Flowtrail UI</Logo>
-              <OpenButton>
-                <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
-                  <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path>
-                </svg>
-              </OpenButton>
-            </LogoContainer>
-            <Nav>
-              <NavLink>Blog</NavLink>
-              <NavLink>Portfolio</NavLink>
-              <NavLink>About</NavLink>
-              <NavLink>Contact</NavLink>
-              <NavDropdown>
-                More
-                <MoreIcon fill="currentColor" viewBox="0 0 20 20">
-                  <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-                </MoreIcon>
-              </NavDropdown>
-            </Nav>
-          </InnerDiv>
-        </OutDiv>
-      </OuterDiv>
+      <section class="">
+
+      </section>
   )
 }
