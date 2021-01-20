@@ -1,5 +1,5 @@
-import * as React from "react"
-import { Link } from "gatsby"
+import * as React from "react";
+import { Link } from "gatsby";
 
 // markup
 const IndexPage = () => {
@@ -7,10 +7,10 @@ const IndexPage = () => {
     <main>
       <title>Not found</title>
       <h1>404. Page not found</h1>
-      <br/>
+      <br />
       <Link to="/">Go home</Link>.
     </main>
-  )
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;

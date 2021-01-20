@@ -2,27 +2,27 @@ module.exports = {
   siteMetadata: {
     siteUrl: "https://krauss-training.netlify.app",
   },
-  plugins: [ 
+  plugins: [
     `gatsby-plugin-postcss`,
     `gatsby-plugin-emotion`,
-    'gatsby-plugin-robots-txt',
-    'gatsby-plugin-netlify-cache',
+    "gatsby-plugin-robots-txt",
+    "gatsby-plugin-netlify-cache",
     "gatsby-plugin-sharp",
-    "gatsby-plugin-mdx",
     `gatsby-plugin-preact`,
     `gatsby-plugin-advanced-sitemap`,
     {
-      resolve: 'gatsby-plugin-next-seo',
+      resolve: "gatsby-plugin-next-seo",
       options: {
         title: "KRAUSS Training",
         language: "de",
-        description: "KRAUSS Training ist der Trainingsspezialist für Führungskräftetraining, Vertriebstraining und Online-Marketing Training.",
+        description:
+          "KRAUSS Training ist der Trainingsspezialist für Führungskräftetraining, Vertriebstraining und Online-Marketing Training.",
         openGraph: {
-          type: 'website',
-          locale: 'de',
-          url: 'https://krauss-training.netlify.app',
-          site_name: 'KraussTraining',
-        }, 
+          type: "website",
+          locale: "de",
+          url: "https://krauss-training.netlify.app",
+          site_name: "KraussTraining",
+        },
       },
     },
     {
@@ -55,5 +55,5 @@ module.exports = {
       __key: "pages",
     },
     "gatsby-plugin-offline",
-  ], 
+  ],
 };

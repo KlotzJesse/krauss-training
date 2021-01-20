@@ -1,13 +1,5 @@
-
-
-  import React from "react"
-
-  import tw from "twin.macro"
+import React from "react";
 
 export default function Navigation({ children }) {
-  return (
-      <section class="">
-
-      </section>
-  )
+  return <section class=""></section>;
 }
