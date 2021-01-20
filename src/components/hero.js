@@ -5,7 +5,7 @@ import tw from "twin.macro";
 export default function Hero({ children }) {
   return (
     <section class="text-gray-700 flex-grow flex flex-col xl:flex-row xl:space-x-32 space-y-5 md:space-y-0 mx-auto items-center justify-center xl:py-0 py-28">
-      <div class="flex-initial w-2/3 flex flex-col items-center justify-center">
+      <div class="flex-initial w-2/3 flex flex-col items-center justify-center animate-fadein">
         <h1 class="font-serif text-2xl font-semibold text-gray-800 dark:text-white xl:text-5xl xl:leading-tight leading-tight mb-8">
           Praxisnahe & hoch beeindruckende Trainings für Führungskräfte &
           Verkäufer
